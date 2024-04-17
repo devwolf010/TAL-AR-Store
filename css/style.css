@@ -220,6 +220,7 @@ body {
     background-color: var(--color-bg-primary) !important;
     margin: 0 !important;
     padding: 0 !important;
+    
 }
 
 
@@ -472,6 +473,7 @@ body {
     .maincontainer {
         margin-top: 3em;
         /* Adjusted margin-top for smaller screens */
+        overflow-x: hidden;
     }
 
     .headertextcontainer,
