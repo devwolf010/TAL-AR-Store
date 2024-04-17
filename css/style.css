@@ -111,10 +111,16 @@ p {
 
 .maincontainer {
     margin-top: 4.5em;
-    background-image: url('./imgs/bgimage.png');
-    height: 90vh;
-    background-size: cover;
-    background-position: bottom center;
+   
+    padding: 0 !important;
+
+}
+.herosection
+{
+    background-image: url('../img/bgimage.png');
+    background-size: 1920px 1000px;
+    background-position: bottom; 
+    height: 80vh;
 
 }
 
@@ -212,6 +218,8 @@ p {
 
 body {
     background-color: var(--color-bg-primary) !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
@@ -441,7 +449,6 @@ body {
 
 
 
-
 @media (max-width: 768px) {
     .title-text {
         font-size: 36px;
@@ -453,6 +460,13 @@ body {
         font-size: 24px !important;
 
     }
+    .feature-container
+    {
+        margin-top: 15em !important;
+    }
+
+
+   
 
 
     .maincontainer {
