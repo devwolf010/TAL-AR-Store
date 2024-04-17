@@ -220,7 +220,7 @@ body {
     background-color: var(--color-bg-primary) !important;
     margin: 0 !important;
     padding: 0 !important;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
